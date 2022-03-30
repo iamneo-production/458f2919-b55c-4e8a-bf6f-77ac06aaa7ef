@@ -1,3 +1,4 @@
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,4 +23,19 @@ function App() {
   );
 }
 
+export default App;
+import { useState, useEffect } from "react";
+import UpdateProduct from './UpdateProduct';
+import ProductAdd from './ProductAdd';
+
+
+function App()
+{
+    return(
+        <div className="App">
+            <UpdateProduct/>
+        </div>
+        
+    );
+}
 export default App;
