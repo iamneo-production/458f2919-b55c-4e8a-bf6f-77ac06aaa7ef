@@ -1,0 +1,80 @@
+.body{
+    background-color: rgba(128, 128, 128, 0.514);
+}
+
+.NavbarItems{
+    background-color: orange;
+     height: 80px;
+     align-items: center;
+     display: flex;
+     justify-content: start;
+     font-size: 1.2 rem;
+     margin-top: 30px;
+     overflow: hidden;
+     box-shadow:rgba(128, 128, 128, 0.514) ;
+   
+}
+
+.Head{
+    margin-left: 0%;
+    font-weight: bolder;
+    color: #ffff;
+    cursor: pointer;
+    padding-left: 30px;
+    text-align: left;
+   
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 1700px;
+    grid: gap 10px;
+    list-style-type: none;
+    text-align: center;
+    width:70vw;
+    margin-right: 2 rem;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav-links{
+
+    color:#ffff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 0%;
+    align-items: center;
+    justify-content: start;
+}
+
+.nav-links:hover{
+    font-weight: bolder;    
+    color: #ffff;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+.nav-links-mobile{
+        padding: 0.5em 1rem;
+        color:#ffff;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: large;
+        list-style-type: none;
+        text-decoration: none;
+        justify-content:flex-end;
+        align-items: right;
+   
+    
+}
+
+.nav-links-mobile:hover{
+    font-weight: bolder;    
+    color: #ffff;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
