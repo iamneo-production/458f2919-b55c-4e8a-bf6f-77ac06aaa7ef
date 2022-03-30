@@ -1,0 +1,43 @@
+header{
+    background-color: darkorange;
+    font-weight: 700;
+    color:#e5e5e5;
+    text-align-last: left;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px;
+    margin-bottom: 0px;
+    font-size:25px;
+    padding-bottom: flex;
+  }
+  body{
+    background-color: grey;
+    }
+    h2{
+      color: darkorange;
+      font-size: 30px;
+    }
+    button{
+      background-color: darkorange;
+      color: white;
+      padding:5px 20px;
+      font-size: 20px;
+    }
+    
+    input[type=text] {
+      padding: 10px 20px;
+      border: white;
+    }
+    input[type=Password] {
+      padding: 10px 20px;
+    }
+    p{
+      color: red;
+    }
+    b{
+      color:white;
+    }
+    a{
+      color:orange;
+    }
