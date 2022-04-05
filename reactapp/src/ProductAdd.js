@@ -1,9 +1,10 @@
 import react from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 import React,{useState} from "react";
-import "./UpdateProduct.css"
 
-const UpdateProduct =() =>{
+const ProductAdd =() =>{
     const [user,setUser] = useState({
         product_name: "",
         product_price: "",
@@ -18,12 +19,9 @@ const onInputChange = e =>{
 };
 return(
     <div className="container g-light mt-4">
-        <div className="row">
-            <div className="col-sm-4 mx-auto ">
-            <center>
-                <h2 className="text-center mb-4">Update Product</h2>
-                </center>
-                <center>
+        <div class="row">
+            <div className="col-sm-4 mx-auto shadow p-5">
+                <h2 className="text-center mb-4">Add Product</h2>
                 <form onSubmit="">
                     <div className="form-group">
                         <input 
@@ -89,13 +87,14 @@ return(
                     <br>
                     </br>
                     <center>
-                    <button className="fluid ui button blue">Update</button>
+                    <button className='btn btn-primary btn-block'>Add</button>
                     </center>
                 </form>
-                </center>
             </div>
         </div>
     </div>
 );
 };
-export default UpdateProduct;
+export default ProductAdd;
+        
+    

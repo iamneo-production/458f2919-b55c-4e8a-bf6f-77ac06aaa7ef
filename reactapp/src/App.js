@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
-import UpdateProduct from './UpdateProduct';
 import ProductAdd from './ProductAdd';
+import './Product.css';
 
 
 function App()
 {
     return(
         <div className="App">
-            <UpdateProduct/>
+          
+            <ProductAdd/>
         </div>
         
     );
