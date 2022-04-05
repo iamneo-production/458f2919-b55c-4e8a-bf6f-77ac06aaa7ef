@@ -1,0 +1,34 @@
+.Table {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 400px;
+    border-spacing: 5px;
+    overflow: hidden;
+  }
+  
+  th {
+    border: 1px solid red;
+    background-color: #fcc96afb;
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+  
+    
+  }
+  td{
+    color:#ffffffef;
+    border-bottom: 2px solid whitesmoke;
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+  }
+  table{
+    width:1400px;
+    height:150px;
+  }
